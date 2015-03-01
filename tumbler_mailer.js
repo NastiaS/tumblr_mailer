@@ -57,7 +57,7 @@ friendList = csvParse(csvFile);
 friendList.forEach(function(row){
 
     var firstName = row["firstName"];
-    var numMonthsSinceline = row["numMonthsSinceContact"];
+    var numMonthsSinceContact = row["numMonthsSinceContact"];
 
     templateCopy = emailTemplate;
       
